@@ -1,0 +1,85 @@
+[
+  {
+    "id": "zone_sun_city",
+    "name": "City of Sun",
+    "levelRange": "1 - 10",
+    "description": "The golden starting capital bathed in perpetual dawn. Home to new adventurers, church healing, and starter guilds.",
+    "isSafeCity": true,
+    "coordinates": { "x": 20, "y": 70 },
+    "connectedZones": ["zone_misty_plains", "zone_dungeon_starter"]
+  },
+  {
+    "id": "zone_misty_plains",
+    "name": "Misty Plains",
+    "levelRange": "5 - 25",
+    "description": "Rolling hills blanketed in ethereal mist where wild slimes and twilight direwolves roam.",
+    "isSafeCity": false,
+    "monsters": ["m_slime_01", "m_wolf_02"],
+    "coordinates": { "x": 35, "y": 60 },
+    "connectedZones": ["zone_sun_city", "zone_merchant_city"]
+  },
+  {
+    "id": "zone_merchant_city",
+    "name": "Merchant City",
+    "levelRange": "30 - 60",
+    "description": "A bustling trade hub featuring the Grand Exchange, Mercenary Guild Tavern, and Blacksmith Enchanters.",
+    "isSafeCity": true,
+    "coordinates": { "x": 50, "y": 45 },
+    "connectedZones": ["zone_misty_plains", "zone_runic_highlands", "zone_dungeon_merchant"]
+  },
+  {
+    "id": "zone_runic_highlands",
+    "name": "Runic Highlands",
+    "levelRange": "60 - 100",
+    "description": "Ancient stone pillars infused with leyline mana. Guarded by Runic Stone Guardians.",
+    "isSafeCity": false,
+    "monsters": ["m_golem_03", "m_phantom_04"],
+    "coordinates": { "x": 65, "y": 30 },
+    "connectedZones": ["zone_merchant_city", "zone_goddess_city"]
+  },
+  {
+    "id": "zone_goddess_city",
+    "name": "Goddess Temple City",
+    "levelRange": "100 - 500",
+    "description": "A sacred sanctuary built atop high cliffs. Gateway to endless deep dungeons and divine trials.",
+    "isSafeCity": true,
+    "coordinates": { "x": 80, "y": 20 },
+    "connectedZones": ["zone_runic_highlands", "zone_dungeon_abyss"]
+  },
+  {
+    "id": "zone_dungeon_starter",
+    "name": "Beginner Crypt [Floors 1-30]",
+    "levelRange": "5 - 30",
+    "description": "Ancient burial site featuring rare crafting cores and starter gear drops.",
+    "isSafeCity": false,
+    "isDungeon": true,
+    "maxFloor": 30,
+    "monsters": ["m_slime_01", "m_wolf_02"],
+    "coordinates": { "x": 15, "y": 80 },
+    "connectedZones": ["zone_sun_city"]
+  },
+  {
+    "id": "zone_dungeon_merchant",
+    "name": "Merchant Labyrinth [Floors 31-100]",
+    "levelRange": "30 - 100",
+    "description": "Subterranean vault housing ancient treasures and dangerous phantoms.",
+    "isSafeCity": false,
+    "isDungeon": true,
+    "maxFloor": 100,
+    "monsters": ["m_golem_03", "m_phantom_04"],
+    "coordinates": { "x": 55, "y": 55 },
+    "connectedZones": ["zone_merchant_city"]
+  },
+  {
+    "id": "zone_dungeon_abyss",
+    "name": "Endless Abyss [Floors 101-300+]",
+    "levelRange": "100 - 500",
+    "description": "Bottomless dungeon where Mythical and Godly tier beasts spawn (1%-5% chance past floor 250).",
+    "isSafeCity": false,
+    "isDungeon": true,
+    "maxFloor": 300,
+    "monsters": ["m_drake_05"],
+    "coordinates": { "x": 85, "y": 10 },
+    "connectedZones": ["zone_goddess_city"]
+  }
+]

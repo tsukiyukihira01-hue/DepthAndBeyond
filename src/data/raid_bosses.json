@@ -1,0 +1,110 @@
+[
+  {
+    "id": "boss_sorrowful_witch",
+    "name": "Sorrowful Witch of the Mist",
+    "title": "Grief of a Thousand Years",
+    "baseHpTier1": 500000,
+    "baseHpTier2": 1250000,
+    "baseHpTier3": 3000000,
+    "skills": ["s_calamity_blast", "s_mist_curse", "s_soul_rend"],
+    "icon": "🧙‍♀️",
+    "uniqueCoreId": "core_boss_sorrowful_witch",
+    "description": "An ancient spellcaster wandering the fog-drenched ruins, channeling sorrow into cataclysmic magic."
+  },
+  {
+    "id": "boss_starlight_golem",
+    "name": "Astraea the Starlight Colossus",
+    "title": "Eternal Citadel",
+    "baseHpTier1": 600000,
+    "baseHpTier2": 1500000,
+    "baseHpTier3": 3500000,
+    "skills": ["s_celestial_slam", "s_astral_barrier", "s_supernova"],
+    "icon": "🌠",
+    "uniqueCoreId": "core_boss_starlight_golem",
+    "description": "Constructed from fallen star fragments to guard the celestial threshold."
+  },
+  {
+    "id": "boss_abyss_monarch",
+    "name": "Vaelen the Void Sovereign",
+    "title": "Lord of the Endless Depths",
+    "baseHpTier1": 700000,
+    "baseHpTier2": 1750000,
+    "baseHpTier3": 4000000,
+    "skills": ["s_void_crush", "s_abyssal_grasp", "s_singularity"],
+    "icon": "👑",
+    "uniqueCoreId": "core_boss_abyss_monarch",
+    "description": "A dark entity claiming supremacy over the bottomless realm."
+  },
+  {
+    "id": "boss_celestial_dragon",
+    "name": "Ignis Arcana the Primordial Dragon",
+    "title": "Ruler of Mana Flames",
+    "baseHpTier1": 800000,
+    "baseHpTier2": 2000000,
+    "baseHpTier3": 4500000,
+    "skills": ["s_dragon_breath", "s_mana_flare", "s_cataclysm_wing"],
+    "icon": "🐲",
+    "uniqueCoreId": "core_boss_celestial_dragon",
+    "description": "A legendary wyrm whose breath burns away magic itself."
+  },
+  {
+    "id": "boss_shadow_reaper",
+    "name": "Kaelen the Phantom Executioner",
+    "title": "Blade of Twilight",
+    "baseHpTier1": 550000,
+    "baseHpTier2": 1350000,
+    "baseHpTier3": 3200000,
+    "skills": ["s_shadow_step", "s_soul_scythe", "s_darkness_veil"],
+    "icon": "💀",
+    "uniqueCoreId": "core_boss_shadow_reaper",
+    "description": "An unseen assassin executing lost wanderers in the twilight."
+  },
+  {
+    "id": "boss_frost_empress",
+    "name": "Lyra the Glacial Empress",
+    "title": "Frozen Memory",
+    "baseHpTier1": 650000,
+    "baseHpTier2": 1600000,
+    "baseHpTier3": 3800000,
+    "skills": ["s_absolute_zero", "s_ice_shard_tempest", "s_frost_shield"],
+    "icon": "❄️",
+    "uniqueCoreId": "core_boss_frost_empress",
+    "description": "Rules over frozen memories with absolute chill."
+  },
+  {
+    "id": "boss_thunder_god",
+    "name": "Raijin the Tempest Warden",
+    "title": "Wrath of the Heavens",
+    "baseHpTier1": 750000,
+    "baseHpTier2": 1850000,
+    "baseHpTier3": 4200000,
+    "skills": ["s_lightning_bolt", "s_thunder_strike", "s_overload"],
+    "icon": "⚡",
+    "uniqueCoreId": "core_boss_thunder_god",
+    "description": "Commands raging storms that shatter the horizon."
+  },
+  {
+    "id": "boss_devouring_serpent",
+    "name": "Ouroboros the World Consumer",
+    "title": "Infinite Coil",
+    "baseHpTier1": 900000,
+    "baseHpTier2": 2200000,
+    "baseHpTier3": 5000000,
+    "skills": ["s_toxic_spit", "s_world_crush", "s_digestive_acid"],
+    "icon": "🐍",
+    "uniqueCoreId": "core_boss_devouring_serpent",
+    "description": "A gargantuan serpent seeking to devour all mana in existence."
+  },
+  {
+    "id": "boss_goddess_shadow",
+    "name": "Umbra the Fallen Reflection",
+    "title": "Goddess's Mirror",
+    "baseHpTier1": 1000000,
+    "baseHpTier2": 2500000,
+    "baseHpTier3": 6000000,
+    "skills": ["s_holy_darkness", "s_judgment_ray", "s_mirror_shatter"],
+    "icon": "👁️",
+    "uniqueCoreId": "core_boss_goddess_shadow",
+    "description": "The dark lingering shadow cast by the goddess of magic."
+  }
+]

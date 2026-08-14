@@ -1,0 +1,98 @@
+[
+  {
+    "id": "q_tut_01",
+    "title": "First Step into the Mist",
+    "description": "Learn basic combat movement by defeating 1 Starlight Slime in the Misty Plains.",
+    "category": "tutorial",
+    "levelReq": 1,
+    "requiredTarget": { "type": "kill", "targetId": "m_slime_01", "count": 1 },
+    "currentProgress": 0,
+    "rewards": { "exp": 50, "gold": 100 },
+    "isCompleted": false,
+    "isClaimed": false
+  },
+  {
+    "id": "q_tut_02",
+    "title": "Understanding Attributes",
+    "description": "Allocate your first attribute points in the Character Sheet.",
+    "category": "tutorial",
+    "levelReq": 1,
+    "requiredTarget": { "type": "travel", "targetId": "alloc_points", "count": 1 },
+    "currentProgress": 0,
+    "rewards": { "exp": 75, "gold": 150 },
+    "isCompleted": false,
+    "isClaimed": false
+  },
+  {
+    "id": "q_tut_03",
+    "title": "Forging Your Path",
+    "description": "Visit the Blacksmith and attempt item fusion or enchantment.",
+    "category": "tutorial",
+    "levelReq": 3,
+    "requiredTarget": { "type": "craft", "targetId": "blacksmith_visit", "count": 1 },
+    "currentProgress": 0,
+    "rewards": { "exp": 150, "gold": 200 },
+    "isCompleted": false,
+    "isClaimed": false
+  },
+  {
+    "id": "q_tut_04",
+    "title": "Reach Adventure Lv 10",
+    "description": "Achieve Level 10 to unlock global chat, public guilds, and market trading.",
+    "category": "tutorial",
+    "levelReq": 5,
+    "requiredTarget": { "type": "travel", "targetId": "reach_lv10", "count": 10 },
+    "currentProgress": 0,
+    "rewards": { "exp": 500, "gold": 500 },
+    "isCompleted": false,
+    "isClaimed": false
+  },
+  {
+    "id": "q_main_01",
+    "title": "The Decades-Long Journey: Memory of Magic",
+    "description": "Inspired by the century-long quest of the quiet elf wizard. Travel to the Merchant City and inspect ancient spellbooks.",
+    "category": "main",
+    "levelReq": 10,
+    "requiredTarget": { "type": "travel", "targetId": "zone_merchant_city", "count": 1 },
+    "currentProgress": 0,
+    "rewards": { "exp": 1000, "gold": 1000 },
+    "isCompleted": false,
+    "isClaimed": false
+  },
+  {
+    "id": "q_main_02",
+    "title": "Magic Spell Mastery",
+    "description": "Defeat 5 Ethereal Spell-Weavers to gather spell shards.",
+    "category": "main",
+    "levelReq": 20,
+    "requiredTarget": { "type": "kill", "targetId": "m_phantom_04", "count": 5 },
+    "currentProgress": 0,
+    "rewards": { "exp": 2500, "gold": 2000 },
+    "isCompleted": false,
+    "isClaimed": false
+  },
+  {
+    "id": "q_daily_01",
+    "title": "Daily Vanguard Duty",
+    "description": "Defeat 3 monsters in any region.",
+    "category": "daily",
+    "levelReq": 1,
+    "requiredTarget": { "type": "kill", "targetId": "any", "count": 3 },
+    "currentProgress": 0,
+    "rewards": { "exp": 300, "gold": 300 },
+    "isCompleted": false,
+    "isClaimed": false
+  },
+  {
+    "id": "q_weekly_01",
+    "title": "Weekly Raid Challenger",
+    "description": "Participate in 1 World Raid Boss battle.",
+    "category": "weekly",
+    "levelReq": 10,
+    "requiredTarget": { "type": "kill", "targetId": "raid_boss", "count": 1 },
+    "currentProgress": 0,
+    "rewards": { "exp": 2000, "gold": 1500 },
+    "isCompleted": false,
+    "isClaimed": false
+  }
+]

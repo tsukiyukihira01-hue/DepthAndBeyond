@@ -1,0 +1,6 @@
+{
+  "name": "Depth and Beyond",
+  "description": "An immersive AAA-MMORPG medieval dreamy fantasy web application featuring persistent character progression, turn-based party combat, real-time raid bosses, Grand Exchange market, guilds, admin dashboard, and multi-factor security.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "UserAccount": {
+      "title": "User Account",
+      "description": "Registered user account stored in Firestore",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique account identifier" },
+        "userId": { "type": "string", "description": "Numeric user ID" },
+        "email": { "type": "string", "format": "email", "description": "User email address" },
+        "name": { "type": "string", "description": "User display name" },
+        "picture": { "type": "string", "description": "User profile avatar picture URL" },
+        "role": { "type": "string", "enum": ["ADMIN", "PLAYER"], "description": "Account role" },
+        "googleId": { "type": "string", "description": "Google OAuth subject ID" },
+        "createdAt": { "type": "string", "description": "Creation ISO timestamp" },
+        "lastLoginAt": { "type": "string", "description": "Last login ISO timestamp" },
+        "isBanned": { "type": "boolean", "description": "Banned state flag" }
+      },
+      "required": ["id", "userId", "email", "role", "createdAt"]
+    },
+    "Character": {
+      "title": "Character Profile",
+      "description": "Character avatar associated with a user account",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique character ID" },
+        "accountId": { "type": "string", "description": "Parent user account ID" },
+        "userId": { "type": "string", "description": "Parent user numeric ID" },
+        "name": { "type": "string", "description": "Character display name" },
+        "level": { "type": "number", "description": "Character level" },
+        "faction": { "type": "string", "description": "Character faction" }
+      },
+      "required": ["id", "accountId", "userId", "name", "level"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/UserAccount" },
+      "description": "User account collection"
+    },
+    "/characters/{characterId}": {
+      "schema": { "$ref": "#/entities/Character" },
+      "description": "User characters collection"
+    }
+  }
+}
